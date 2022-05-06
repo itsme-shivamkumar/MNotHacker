@@ -82,10 +82,10 @@
         <img src="img/skull-hacker.gif" style="border-radius:4px;">
         </div>
         <hr />
-        <h1 style="margin-top:30px; margin-bottom:20px;" class="cssanimation hu__hu__ sequence">Let's Dive Into The Dark World</h1>
+        <h1 style="margin-top:50px; margin-bottom:20px;" class="cssanimation hu__hu__ sequence">Let's Dive Into The Dark World</h1>
       </div>
       <div class="col-md-5 text-center">
-        <div class="caption-code">
+        <!-- <div class="caption-code">
         <h2>
           A1:2021 Broken Access Control
           <hr />
@@ -125,9 +125,113 @@
         <h2>
           A10:2021 Server Side Request Forgery
           <hr />
-        </h2>
+        </h2> -->
+
+<!-- Accordion start -->
+  <div class="accordion" id="accordionExample">
+  <div class="accordion-item bg-dark">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        A1:2021 Broken Access Control
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      Access control enforces policy such that users cannot act outside of their intended permissions. Failures typically lead to unauthorized information disclosure, modification, or destruction of all data or performing a business function outside the user's limits.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-dark">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        A2:2021 Crytographic Failures
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        The first thing is to determine the protection needs of data in transit and at rest. For example, passwords, credit card numbers, health records, personal information, and business secrets require extra protection, mainly if that data falls under privacy laws
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-dark">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        A3:2021 Injection
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul>
+          <li>User-supplied data is not validated, filtered, or sanitized by the application.</li>
+
+<li>Dynamic queries or non-parameterized calls without context-aware escaping are used directly in the interpreter.</li>
+
+<li>Hostile data is used within object-relational mapping (ORM) search parameters to extract additional, sensitive records.</li>
+
+<li>Hostile data is directly used or concatenated. The SQL or command contains the structure and malicious data in dynamic queries, commands, or stored procedures.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-dark">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        A4:2021 Insecure Design
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      Insecure design is a broad category representing different weaknesses, expressed as <q>missing or ineffective control design.</q>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-dark">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        A5:2021 Security Misconfiguration
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul>
+          <li>Missing appropriate security hardening across any part of the application stack or improperly configured permissions on cloud services.</li>
+
+<li>Unnecessary features are enabled or installed (e.g., unnecessary ports, services, pages, accounts, or privileges).</li>
+
+<li>Default accounts and their passwords are still enabled and unchanged.</li>
+
+<li>and many more...</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg-dark">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        and many more...
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <u>Some other Web Vulnerabilities(as per OWASP 2021) are...</u>  <br />
+      <p>            A6:2021 Vulnerable and Outdated Components<br />
+
+                  A7:2021 Identification and Authentication Failures<br />
+
+                  A8:2021 Software and Data Integrity Failures<br />
+
+                  A9:2021 Security logging and Monitoring Failures<br />
+
+                  A10:2021 Server Side Request Forgery   </p>
 
       </div>
+    </div>
+  </div>
+
+
+
+</div>
+<!-- Accordion end -->
       </div>
       <div class="col-md-1 text-center">
         <div class="caption-code" style="font-size:1.2em;">

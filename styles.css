@@ -130,3 +130,35 @@ margin: 10px;
   70%{opacity: 0.9}
   100%{opacity: 0}
 }
+.accordion{
+  margin: 10px;
+
+}
+/* .accordion-item{
+  color: grey;
+  background-color: #404040;
+}
+.accordion-button{
+  color: grey;
+  background-color: #202020;
+
+
+}
+.accordion-button:hover{
+  color: white;
+  background-color: #202020;
+  border-color: grey;
+
+}
+#accordionExample{
+  width: 100% !important;
+} */
+.accordion-item{
+  color: #707070;
+}
+.accordion-button{
+  color: #808080;
+}
+.accordion-button:hover{
+  color: white;
+}
