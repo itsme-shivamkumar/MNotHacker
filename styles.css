@@ -111,7 +111,7 @@ margin: 10px;
   margin-left: 200px;
 
 }
-.scaleZoomInRight { animation-name: scaleZoomInRight; animation-iteration-count: infinite;}
+.scaleZoomInRight { animation-name: scaleZoomInRight; animation-iteration-count: infinite; }
 @keyframes scaleZoomInRight {
      30%, 50% { transform: scale(1.3) }
      60% { opacity: 1 }
@@ -119,4 +119,14 @@ margin: 10px;
         transform: scale(1.3) translateX(100%);
         opacity: 0;
     }
+}
+#exclamatory{
+  color: white;
+  text-decoration: none;
+  animation-name: blink; animation-iteration-count: infinite; animation-duration: 0.7s; animation-direction: normal;
+}
+@keyframes blink{
+  0%{opacity: 1}
+  70%{opacity: 0.9}
+  100%{opacity: 0}
 }
