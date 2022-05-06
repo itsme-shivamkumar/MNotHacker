@@ -39,10 +39,14 @@ Striking
     50% { transform: translateY(-22px) rotate(3deg) scale(1.1);  }
 }
 
-.effect3d { animation-name: effect3d }
+.effect3d { animation-name: effect3d; animation-timing-function:ease-in; animation-duration: 1.5s;}
 @keyframes effect3d {
-    to {
-        text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15)
+    55%{
+      text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa
+    }
+    56%{
+      text-shadow:  0 5px 0 #aaa, 0 4px 0 #b9b9b9,  0 3px 0 #bbb, 0 2px 0 #c9c9c9, 0 1px 0 #ccc
+
     }
 }
 
@@ -59,6 +63,12 @@ Striking
 @keyframes pepe {
     from, 33%, 66%, to { transform: rotate(4deg) }
     16%, 50%, 83% { transform: rotate(-4deg) }
+}
+
+.pepe2 { animation-name: pepe; animation-iteration-count: infinite }
+@keyframes pepe {
+    from, 33%, 66%, to { transform: rotate(0.1deg) }
+    16%, 50%, 83% { transform: rotate(-0.1deg) }
 }
 
 .leWaterWave span { animation: leWaterWave .2s linear infinite }
