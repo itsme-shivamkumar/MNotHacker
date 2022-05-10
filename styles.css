@@ -94,6 +94,10 @@ margin: 10px;
   height: 25px;
   margin-right: 05px;
 }
+#nav-img:hover{
+  height: 27px;
+  margin-right: 05px;
+}
 .hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
 @keyframes hu__hu__ {
     30% { transform: translateY(3px) }

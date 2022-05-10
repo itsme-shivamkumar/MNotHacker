@@ -65,8 +65,8 @@ Striking
     16%, 50%, 83% { transform: rotate(-4deg) }
 }
 
-.pepe2 { animation-name: pepe; animation-iteration-count: infinite }
-@keyframes pepe {
+.pepe2 { animation-name: pepe2; animation-iteration-count: infinite }
+@keyframes pepe2 {
     from, 33%, 66%, to { transform: rotate(0.1deg) }
     16%, 50%, 83% { transform: rotate(-0.1deg) }
 }
@@ -82,10 +82,12 @@ Striking
     25%, 75% { opacity: 0 }
 }
 
-.leJoltZoom span { animation-name: leJoltZoom }
+.leJoltZoom { animation-name: leJoltZoom; animation-iteration-count: infinite; animation-timing-function: ease-in; animation-duration: 1.5s;}
 @keyframes leJoltZoom {
-    10% { font-size: 140% }
-    40% { font-size: 80% }
+    0% { font-size: 100% }
+    25%{ font-size: 120%}
+    50% { font-size: 100% }
+    75% {font-size: 120%}
     100% { font-size: 100% }
 }
 
