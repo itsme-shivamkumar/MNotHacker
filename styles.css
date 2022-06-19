@@ -37,7 +37,7 @@ h1,h2,h3{
   color: white;
 }
 h4,h5,h6{
-  color: #555555;
+  color: #959595;
 }
 
 .light-border{
@@ -165,4 +165,21 @@ margin: 10px;
 }
 .accordion-button:hover{
   color: white;
+}
+.bg2{
+  display: block;
+  position: absolute;
+  z-index: -100;
+  width:80%;
+  left: 100px;
+  opacity: 0.8;
+}
+
+.bg3{
+  display: block;
+  width: 95%;
+  opacity: 0.5;
+  position: absolute;
+  left: 30px;
+  z-index: -97;
 }
